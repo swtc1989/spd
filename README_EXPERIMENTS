@@ -1,0 +1,12 @@
+- Contains : This Rep contains the source code and experiments scripts associated with the paper "Improving the cost-effectiveness of symbolic testing techniques for transport protocol implementations under packet dynamics" submitted to ISSTA 2017.  
+
+- Breakdown : The file system is broken down into two main parts
+    - ~/Desktop/Resources : The Resources folder is arranged into a series of folders.  Please see the README_EXPERIMENTS file in the Resources folder for more information
+
+    - ~/Desktop/Replications : The Replications folder contains all of the information that is required to re-run (or attempt to re-run) an individual experiment.  Please see the README_EXPERIMENTS file in the Replications folder for more information.
+
+
+- Notes : 
+In essence the Replications folder relies on the Resources folder. The Resources folder is intended to provide working builds of the testing tools we have built to perform each testing method in the paper. The Replications folder provides the configuration and script information for each of the expeirments we ran in the paper. 
+
+The techniques used as baselines like Random are not included in this VM, the scripts to run and compute the whole data in the tables are not included since not all techniques are provided, we only inculde the tools we have built to peform the proposed testing methods in the paper. 

@@ -1,0 +1,7 @@
+The script to run this experiment:
+
+cd "Your interesting folder"
+sudo sh "Your interesting mutant"
+
+The above command will run a specific testing approach for a mutant(i.e., the larger memory size, the longer running time). It will generate an output folder named last-run-info.
+

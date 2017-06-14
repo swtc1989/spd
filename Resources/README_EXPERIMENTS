@@ -1,0 +1,14 @@
+- Contains : Each of these folders is used for one or more of the experiments in the "~/Desktop/Replications" folder.
+
+- Table of Contents:
+    - Folder : Mutants_all
+	- Contains : It has a total of 679 mutants, including 316 mutants that change the client and 363 mutants that change the server.
+    
+    - Folder : Runtime_database_controller
+        - Contains : Source code and builds of Database to store all tested EEFSM configurations and sequences of pending IUT, which is related to the 			     Figure 6 in the paper. 
+
+    - Folder : SPD
+        - Contains : Source code and builds of the overall testing platform as well as experiments snapshots, which is related to the Figure 6 in the 			     paper. 
+    
+    - Folder : IUT
+	- Contains : The protocol implementation under test(IUT) selected in the paper.

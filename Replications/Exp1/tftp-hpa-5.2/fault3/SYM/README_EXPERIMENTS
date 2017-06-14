@@ -1,0 +1,15 @@
+The script to run this experiment:
+
+sudo sh script_run.sh
+
+All the output files are in a folder named last-run-info, the warnings.txt file has all useful info for each execution path. A testing process terminates if all execution paths have been analyzed, a faulty execution path detected or memory is low(i.e., 4 Gb RAM could run for about 1 hour). All the other output files contain many types of statistics during the execution. 
+
+e.g.,
+A correct execution path
+001,178,801,178,801,178,801,178,801,164,4199,*accept
+
+A faulty execution path
+001,178,801,178,801,178,801,178,801,112,201,1121,199,901,1121,199,901,1121,101,1121,143,301,199,901,1121,178,801,178,801,199,901,1121,178,801,178,801,131,112,201,1121,199,901,1121,199,901,1121,129,901,1121,143,301,199,901,1121,178,801,178,801,199,901,1121,178,801,178,801,131,112,201,1121,199,901,1121,143,301,199,901,1121,178,801,199,901,1121,178,801,199,901,1121,178,801,178,801,131,112,216,686,6105,no matching:event 6 with 3 in S5faults detected
+
+An unfinished execution path(due to low memory)
+3591 [State 18759] Message from guest (0x8092b00): 001,178,801,178,80

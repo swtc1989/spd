@@ -1,0 +1,17 @@
+- Contains : Each of the subfolder contains information related to replicate a particular experiment that is referenced in the paper submited to ISSTA.  
+
+- Table of Contents:
+    - Folder : Exp1
+        - Contains : Information related to the Setction 5.3 Exp#1: Cost-effectiveness with Real Faults
+
+    - Folder : Exp2
+        - Contains : Information related to the Setction 5.4 Exp#2: Cost-effectiveness with Mutants 
+
+    - Folder : Example
+        - Contains : An simple example to illustrate what the testing tool built in this paper consumes and produces.
+
+- Notes: 
+This demo machine may take a different time to detect a fault from the used machine in the paper experiments.
+
+Please open a termianl(i.e., ctrl + alt + t) to run the scripts(i.e., sudo sh the_script). 
+

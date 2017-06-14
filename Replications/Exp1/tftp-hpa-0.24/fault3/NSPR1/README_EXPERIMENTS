@@ -1,0 +1,5 @@
+The script to run this experiment:
+
+sudo sh script_run.sh
+
+Notice: this demo machine needs a different time to detect a fault than the used machine in the paper experiments.
